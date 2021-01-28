@@ -7,13 +7,14 @@
 
 ## Backend - NODEJS
 ### Construir API para realização do crud com as seguintes rotas:
-- **GET - producers:** Retornar todos os produtores.
-- **POST - producers:** Enviar os dados necessarios para cadastrar  os produtores.
-- **POST - farms:** Enviar os dados necessarios para cadastrar as propriedades.
-- **POST - producers_farms:** Enviar o ID do produtor e retornar as propriedades vinculados ao mesmo.
-- **PUT - producer-edit:** Editar os dados do produtor.
-- **DELETE - producer-delete:** Excluir o produtor informado.
 
+- **GET - producers:** Retornar todos os produtores.
+- **POST - producer:** Enviar os dados necessarios para cadastrar os produtores.
+- **PUT - producer:** Editar os dados do produtor.
+- **DELETE - producer:** Excluir o produtor informado.
+
+- **POST - farms:** Enviar os dados necessarios para cadastrar as propriedades.
+- **GET - producers/farms/:id:** Enviar o ID do produtor e retornar as propriedades vinculados ao mesmo.
 
 ## Banco de Dados - POSTGRES
 Será necessario criar duas tabelas **producer** e **farm** , onde todos os campos devem ser obrigatórios. 
